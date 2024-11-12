@@ -1,0 +1,2 @@
+combine all outputs so that the final database contains 
+both random characters, random words, random sentences, and topic specific correct sentences

@@ -38,7 +38,7 @@ def main():
                 elif 0.4 <= randInt < 0.8:
                     aString += rwg.ret()
                 elif 0.8 <= randInt < 0.9:
-                    aString += rwg.ret()
+                    aString += rsg.ret()
                 elif 0.9 <= randInt < 1:
                     aString += ssg.ret()
                 

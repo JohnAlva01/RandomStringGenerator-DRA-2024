@@ -7,4 +7,6 @@ class RandSentGen:
         self.documentGen = DocumentGenerator()
     
     def ret(self):
-        return self.documentGen.sentence()
+        astr = self.documentGen.sentence()
+        cleaned_astr = astr.replace('\n', "").strip()
+        return cleaned_astr

@@ -1,0 +1,2 @@
+Each line in giant data base text file is a random category (char, sentence, spec sentence, word)
+User enters a topic, LLM will search through my database and categorize what is closely related to that topic

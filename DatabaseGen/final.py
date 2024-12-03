@@ -6,16 +6,16 @@ import os
 import random
 
 def main():
-    folder_path = r"DatabaseGen/SpecTxtFiles"
 
     rcg = RandCharGen()
     rsg = RandSentGen()
     rwg = RandWordGen()
+    folder_path = r"DatabaseGen/SpecTxtFiles"
     ssg = SpecSentGen(folder_path)
 
     randGenerators = [rcg, rsg, rwg, ssg]
 
-    strLen = 200
+    strLen = ssg.retMaxChar()
     numLines = 2000
 
     fileDest = r"DatabaseGen/finalTestTxtFiles"
